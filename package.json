@@ -1,0 +1,22 @@
+{
+  "name": "virtual-support-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-sqlite3": "^0.9.15",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.19.0",
+    "helmet": "^8.0.0",
+    "mailer": "^0.6.7",
+    "node": "^25.8.1",
+    "nodemailer": "^8.0.3",
+    "sqlite3": "^6.0.1"
+  }
+}
